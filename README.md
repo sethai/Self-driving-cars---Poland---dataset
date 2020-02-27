@@ -1,6 +1,6 @@
 # Annotated Driving Dataset - Poland
 
-Note: The dataset is free to use. It's annotated manualy and could contain errors.
+Note: The dataset is free to use. It's annotated manualy and can contain errors.
 
 ## Dataset
 
