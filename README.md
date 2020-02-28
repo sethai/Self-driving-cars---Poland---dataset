@@ -1,6 +1,7 @@
 # Annotated Driving Dataset - Poland
 
 Note: The dataset is free to use. It's annotated manualy and could contain errors.
+Images for the data set are stored in a zip file on a separate server. Link to download below.
 
 ## Dataset
 
@@ -17,13 +18,15 @@ The dataset includes driving in Poland (currently Warsaw only) during daylight a
 <table>
     <tr>
         <td>Size</td>
-        <td>2.8 GB</td>
+        <td>3.7 GB</td>
     </tr>
     <tr>
         <td>Download</td>
         <td><a href="http://konradobah.pl/www/dataset_poland/dataset.zip">dataset</td>
     </tr>
 </table>
+
+## Dataset description
 
 #### Labels
 - car
@@ -33,6 +36,7 @@ The dataset includes driving in Poland (currently Warsaw only) during daylight a
 - trafficlight-green
 - trafficlight-red
 - trafficlight-yellow
+- trafficlight-green-arrow
 - crosswalk
 - bicycle
 - biker
@@ -48,6 +52,18 @@ The dataset includes driving in Poland (currently Warsaw only) during daylight a
 - label
 - time of day
 
+#### Dataset split (time of day)
+<table>
+    <tr>
+        <td>Day</td>
+        <td>1090 (assets) ; 10127 (tags)</td>
+    </tr>
+    <tr>
+        <td>Night</td>
+        <td>731 (assets) ; 5724 (tags)</td>
+    </tr>
+</table>    
+
 #### Labels count
 
 ![](./images/labels_count.jpg)
@@ -55,35 +71,35 @@ The dataset includes driving in Poland (currently Warsaw only) during daylight a
 <table>
     <tr>
         <td>car</td>
-        <td>8640</td>
+        <td>10830</td>
     </tr>
     <tr>
         <td>truck</td>
-        <td>1221</td>
+        <td>1678</td>
     </tr>
     <tr>
         <td>pedestrian</td>
-        <td>1186</td>
+        <td>1292</td>
     </tr>
     <tr>
         <td>trafficlight</td>
-        <td>802</td>
+        <td>853</td>
     </tr>
     <tr>
         <td>trafficlight-green</td>
-        <td>399</td>
+        <td>400</td>
     </tr>
     <tr>
         <td>trafficlight-red</td>
-        <td>323</td>
+        <td>351</td>
     </tr>
     <tr>
         <td>crosswalk</td>
-        <td>261</td>
+        <td>319</td>
     </tr>
     <tr>
         <td>bicycle</td>
-        <td>72</td>
+        <td>81</td>
     </tr>
     <tr>
         <td>trafficlight-yellow</td>
@@ -98,7 +114,11 @@ The dataset includes driving in Poland (currently Warsaw only) during daylight a
         <td>6</td>
     </tr>
     <tr>
+        <td>trafficlight-green-arrow</td>
+        <td>5</td>
+    </tr>    
+    <tr>
         <td>stop-sign</td>
-        <td>4</td>
+        <td>5</td>
     </tr>    
 </table>
