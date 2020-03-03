@@ -18,7 +18,7 @@ The dataset includes driving in Poland (currently Warsaw only) during daylight a
 <table>
     <tr>
         <td>Size</td>
-        <td>4.1 GB</td>
+        <td>4.3 GB</td>
     </tr>
     <tr>
         <td>Download</td>
@@ -56,7 +56,7 @@ The dataset includes driving in Poland (currently Warsaw only) during daylight a
 <table>
     <tr>
         <td>Day</td>
-        <td>1271 (assets) ; 12053 (tags)</td>
+        <td>1334 (assets) ; 19303 (tags)</td>
     </tr>
     <tr>
         <td>Night</td>
@@ -71,43 +71,43 @@ The dataset includes driving in Poland (currently Warsaw only) during daylight a
 <table>
     <tr>
         <td>car</td>
-        <td>12180</td>
+        <td>12676</td>
     </tr>
     <tr>
         <td>truck</td>
-        <td>1799</td>
+        <td>1914</td>
     </tr>
     <tr>
         <td>pedestrian</td>
-        <td>1545</td>
+        <td>2284</td>
     </tr>
     <tr>
         <td>trafficlight</td>
-        <td>899</td>
+        <td>948</td>
     </tr>
     <tr>
         <td>trafficlight-green</td>
-        <td>418</td>
+        <td>424</td>
     </tr>
     <tr>
         <td>trafficlight-red</td>
-        <td>360</td>
+        <td>397</td>
     </tr>
     <tr>
         <td>crosswalk</td>
-        <td>418</td>
+        <td>453</td>
     </tr>
     <tr>
         <td>bicycle</td>
-        <td>101</td>
+        <td>136</td>
     </tr>
     <tr>
         <td>trafficlight-yellow</td>
-        <td>19</td>
+        <td>21</td>
     </tr>
     <tr>
         <td>biker</td>
-        <td>22</td>
+        <td>34</td>
     </tr>
     <tr>
         <td>dog</td>
